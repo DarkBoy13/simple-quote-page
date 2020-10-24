@@ -94,10 +94,6 @@ footer {
         padding-top: .5rem;
     }
 
-    .quote {
-        
-    }
-
     footer {
         position: absolute;
         bottom: 0;
@@ -107,5 +103,9 @@ footer {
         text-align: center;
     }
 
+    footer p:hover {
+    background-color: rgba(0, 255, 255, 0.514);
+    color: brown;
+    }
     
 }
