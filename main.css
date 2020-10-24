@@ -88,14 +88,22 @@ footer {
     text-align: center;
 }
 
-@media (mind-width: 768px) {
+@media (min-width: 768px) {
     body {
         text-align: center;
         padding-top: .5rem;
     }
-    footer {
-    float: bottom;
 
+    .quote {
+        
+    }
+
+    footer {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100vw;
+        height: 37px;
     }
 
     
