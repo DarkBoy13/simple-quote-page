@@ -2,7 +2,7 @@ html,
 body {
   margin: 0;
   padding: 0;
-  font-size: 100%;
+  font-size: 90%;
   line-height: 1.5;
 }
 
@@ -11,7 +11,6 @@ body {
   height: 100vh;
   background: url('assets/freedom.jpg') no-repeat center;
   background-size: cover;
-  color: #333;
 }
 
 .wrapper {
@@ -30,13 +29,19 @@ body {
   font-family: 'Crimson Text', serif;
   font-size: 1.5rem;
   font-style: italic;
+  background-color: rgba(128, 128, 128, 0.418);
+  color: rgba(255, 255, 255, 0.719)
 }
 
-@media (max-width: 768px) {
+@media (max-width: 375px) {
     .qoute {
-      font-size: .1rem;
+      font-size: 100%;
     }
     .author {
-        background-color: gray;
+       
+}
+@media (min-width: 1024px) {
+    body {
+        font-size: 100%;
     }
 }
