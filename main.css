@@ -44,6 +44,9 @@ table {
 	border-spacing: 0;
 }
 
+* {
+    box-sizing: border-box;
+  }
 
 html,
 body {
@@ -81,4 +84,19 @@ body {
   color: rgba(255, 255, 255, 0.719)
 }
 
-   
+footer {
+    text-align: center;
+}
+
+@media (mind-width: 768px) {
+    body {
+        text-align: center;
+        padding-top: .5rem;
+    }
+    footer {
+    float: bottom;
+
+    }
+
+    
+}
